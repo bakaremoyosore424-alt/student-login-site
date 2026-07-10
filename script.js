@@ -8,7 +8,7 @@ document.getElementById("showPass").addEventListener("change", function () {
     }
 });
 
-document.getElementById("haileyab126@gmail.com").addEventListener("submit", function (event) {
+document.getElementById("loginForm").addEventListener("submit", function (event) {
     event.preventDefault();
 
     alert("Login button clicked.");
